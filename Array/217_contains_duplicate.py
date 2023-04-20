@@ -13,15 +13,15 @@ class Solution:
         # else:
         #     return False
         # way2 set()
-        # return len(set(nums)) != len(nums)
+        return len(set(nums)) != len(nums)
         # way3 hashtable
-        hashmap = {}
-        for i in nums:
-            if i in hashmap.keys():
-                return hashmap.get(i)
-            else:
-                hashmap[i] = True
-        return False
+        # hashmap = {}
+        # for i in nums:
+        #     if i in hashmap.keys():
+        #         return hashmap.get(i)
+        #     else:
+        #         hashmap[i] = True
+        # return False
 
 
 # case1
@@ -36,6 +36,6 @@ class Solution:
 # print(res)
 
 # case3
-# sol = Solution()
-# res = sol.containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
-# print(res)
+sol = Solution()
+res = sol.containsDuplicate([1, 1, 1, 3, 3, 4, 3, 2, 4, 2])
+print(res)
