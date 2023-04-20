@@ -20,9 +20,9 @@ class Solution:
 
 
 # case1
-# sol = Solution()
-# res = sol.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
-# print(res)
+sol = Solution()
+res = sol.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+print(res)
 
 # case2
 # sol = Solution()
